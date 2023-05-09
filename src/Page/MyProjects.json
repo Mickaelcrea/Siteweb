@@ -1,0 +1,88 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Titre du projet",
+            "description": "Description du projet",
+            "software": [
+                "Logiciel 1",
+                "Logiciel 2",
+                "Logiciel 3"
+            ],
+            "image": {
+                "src": "chemin/vers/image.jpg",
+                "alt": "Texte alternatif de l'image"
+            },
+            "carousel": [
+                {
+                    "src": "chemin/vers/image1.jpg",
+                    "alt": "Texte alternatif de l'image 1"
+                },
+                {
+                    "src": "chemin/vers/image2.jpg",
+                    "alt": "Texte alternatif de l'image 2"
+                },
+                {
+                    "src": "chemin/vers/image3.jpg",
+                    "alt": "Texte alternatif de l'image 3"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Titre du projet",
+            "description": "Description du projet",
+            "software": [
+                "Logiciel 1",
+                "Logiciel 2",
+                "Logiciel 3"
+            ],
+            "image": {
+                "src": "chemin/vers/image.jpg",
+                "alt": "Texte alternatif de l'image"
+            },
+            "carousel": [
+                {
+                    "src": "chemin/vers/image1.jpg",
+                    "alt": "Texte alternatif de l'image 1"
+                },
+                {
+                    "src": "chemin/vers/image2.jpg",
+                    "alt": "Texte alternatif de l'image 2"
+                },
+                {
+                    "src": "chemin/vers/image3.jpg",
+                    "alt": "Texte alternatif de l'image 3"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Titre du projet",
+            "description": "Description du projet",
+            "software": [
+                "Logiciel 1",
+                "Logiciel 2",
+                "Logiciel 3"
+            ],
+            "image": {
+                "src": "chemin/vers/image.jpg",
+                "alt": "Texte alternatif de l'image"
+            },
+            "carousel": [
+                {
+                    "src": "chemin/vers/image1.jpg",
+                    "alt": "Texte alternatif de l'image 1"
+                },
+                {
+                    "src": "chemin/vers/image2.jpg",
+                    "alt": "Texte alternatif de l'image 2"
+                },
+                {
+                    "src": "chemin/vers/image3.jpg",
+                    "alt": "Texte alternatif de l'image 3"
+                }
+            ]
+        }
+    ]
+}

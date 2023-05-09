@@ -1,0 +1,116 @@
+.fullpage_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 9%;
+    z-index: 1000;
+    position: relative;
+    font-size: larger;
+    background-color: #5d94b9;
+}
+
+/* .fullpage_menu img {
+    width: 35px;
+    filter: invert(); 
+} */
+
+.logo{
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+.menu li {
+    padding-right: 3rem;
+}
+.menu li a {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #181818;
+}
+
+.menu li a:hover{
+    font-weight: bold;
+}
+
+.menuburger{
+    display: none;
+    padding: 40px 0 0 0;
+    position: fixed;
+    right: 40px;
+    z-index: 1000;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -250px;
+    background-color: black;
+    padding-top: 60px;
+    transition: right 0.5s ease;
+  }
+  
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: rgb(255, 113, 31);
+  }
+
+  .sidenav a:nth-last-child():hover {
+    color: white;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenavactive {
+    right: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burgericon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    border: solid 1px black;
+  }
+
+
+
+@media screen and (max-width: 1000px) {
+    .fullpage_menu {
+        display: none;
+    }
+    .menuburger{
+        display: block;
+    }
+} 
