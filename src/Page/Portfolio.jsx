@@ -8,7 +8,7 @@ export function Prortfolio() {
 
     useEffect(() => {
         async function getProjects() {
-            const response = await fetch("./MyProjects.json")
+            const response = await fetch("/MyProjects.json")
             console.log(response)
             if (response.ok) {
                 setLoading(false)
